@@ -11,17 +11,17 @@ html {
     width: auto;
     height: auto;
     /* font-size: 18px; */
-    font-family: "Noto Sans";
+    font-family: "Roboto";
   }
   
   #red-text {
-      color: #ff5a6e;
+      color: rgb(61, 79, 99);
   }
   
   #title-text-separator {
     width: 5%;
     margin-top: 1%;
-    border: solid 1px #ff5a6e;
+    border: solid 1px rgb(61, 79, 99);
   }
   
   .responsive-menu-link {
@@ -157,9 +157,9 @@ html {
     color: white;
   
     /* Background image */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("/images/dtakestirimcibakim.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.0)), url("/images/KestirimciBakim.webp");
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -189,41 +189,7 @@ html {
   }
   
   
-  
-  
-  
-  
-  
-  
-  /* ----- Main Content CSS -----
-  
-  Tags included:
-  
-  1. features-container - the main container wrapping the "features" elements
-  
-  2. features-description - container wrapping the title and the description
-  
-  3. features-title - the main title of the Features
-  
-  4. features-separator - the line that separates the title from the Description
-  
-  5. features-text - the main describing the features and services
-  
-  6. service-features - container wrapping all 4 services
-  
-  7. feature - the common id applied to the container of all the 4 services
-  
-  8. feature img - the styling of each image belonging to each feature
-  
-  9. feature-title - the common id applied to the title of each feature
-  
-  10. feature p - the styling of each paragraph belonging to each feature
-  
-  11. feature-button - the common id applied to the button of each feature
-  
-  12. feature-button:hover - the ":hover" styling of each button
-  
-  */
+
   
   #features-container {
     box-shadow: 2px 2px 15px #bebebe;
@@ -294,75 +260,18 @@ html {
     width: 12vh;
     height: 5vh;
     border-radius: 15px;
-    background-color: #ff5a6e;
+    background-color: rgb(61, 79, 99);
     color: white;
     font-size: 16px;
     margin-bottom: 20%;
   }
   
   #feature-button:hover {
-    background-color: #ff7b8b;
+    background-color:rgb(61, 79, 99);
     cursor: pointer;
   }
   
   
-  
-  
-  
-  /* ----- Product Presentation CSS -----
-  
-  CSS for the section of the website that features each "product" available.
-  
-  Tags included:
-  
-  1. #presentation-container - the general container where everything is
-  
-  2. #presentation-title-description - the container in which the title and the description are
-  
-  3. #presentation-title - the main title of the section
-  
-  4. #presentation-separator - the CSS for the separator between the main title and the description
-  
-  5. #presentation-description - the main description of the section
-  
-  6. #section-buttons - the div containing the main product buttons
-  
-  7. .product-buttons - the general class used to style the buttons
-  
-  8. .product-button:hover - the CSS that changes the style of a button when hoevered
-  
-  9. .product-button:focus - the CSS that removes the outlife of the buttons when clicked
-  
-  10. .product-button-active - the CSS for the class that is added with jQuery to buttons when sections appear/disappear
-  
-  11. #section-content-container - the main container containing all the subsections
-  
-  12. .product-content - a general class applying some CSS to each subsection container
-  
-  13. #content-image - general id used to apply CSS to each image in the subsections
-  
-  14. #content-image-container - general id used to apply CSS to each div containing the main image of each subsection
-  
-  15. #content-title-text - general ID used to style the div containing each subsection's title and description
-  
-  16. #content-title-text p - selector used to add a little distance between the paragraph and the title
-  
-  17. .product-features-list - a general class used to style the feature list of each subsection
-  
-  18. #first-feature-list - a unique ID used to stylize only the first container with that ID.
-  
-  19. #product-feature-image - genral ID used to style the container of each product image1
-  
-  20. #correct-icon - general id of all the images used to replace UL bulletpoints in the "list" with features of each product
-  
-  21. #inside-features-title-text - general ID of the features of the products within each subsection
-  
-  22. #content-button - general ID of each button inside each product subsection
-  
-  23. #content-button:hover - general ID of the hover styling of each button inside the products subsection
-  
-  
-  */
   
   #presentation-container {
     display: flex;
@@ -414,7 +323,7 @@ html {
   }
   
   .product-button-active {
-    background-color: #ff5a6e;
+    background-color:rgb(61, 79, 99);
     color: white;
   }
   
@@ -492,7 +401,7 @@ html {
   #content-button {
     border: none;
     border-radius: 10px;
-    background-color: #ff5a6e;
+    background-color: rgb(61, 79, 99);
     box-shadow: 1px 2px 15px #bebebe;
     padding: 15px;
     width: 25%;
@@ -503,7 +412,7 @@ html {
   
   #content-button:hover {
     cursor: pointer;
-    background-color: #ff7b8b;
+    background-color: rgb(61, 79, 99);
   }
   
   
@@ -617,7 +526,7 @@ html {
   #media-button:hover {
     cursor: pointer;
     background-color: white;
-    background-color: #ff5a6e;
+    background-color: rgb(61, 79, 99);
     color: white;
   }
   
@@ -634,45 +543,6 @@ html {
   }
   
   
-  
-  
-  /* Prices Section CSS
-  
-  Tags Included:
-  
-  1. #prices-section-container - main container of the price section
-  
-  2. #prices-title-description - container where the title and description are
-  
-  3. #prices-title-description h1 - main title of the "Prices" section
-  
-  4. #prices-separator - Separator between title and description
-  
-  5. #prices-title-description p - main description of the "Prices" section
-  
-  6. #all-prices-container - container where all the divs with prices are
-  
-  7. .price-container - common class used to style the containers of each price
-  
-  8. .price-container h1 - title of each price (starter/premium/professional)
-  
-  9. .price-container h2 - subtitle of each price ($55/$85/$120)
-  
-  10. .price-container p - monthly payment text style
-  
-  11. .price-container hr - prices separator style
-  
-  12. .price-container ul - the list with features of each price
-  
-  13. .price-container li - each individual item on the list with features for each price
-  
-  14. .price-container button - style of each button of each price section
-  
-  15. .price-container button:hover - the hover state of each button of each price
-  
-  16. #price-container-two - the price container in the middle, placed a little higher than the others
-  
-  */
   
   #prices-section-container {
     display: flex;
@@ -699,7 +569,7 @@ html {
   #prices-separator {
     width: 5%;
     margin-top: 2%;
-    border: solid 1px #ff5a63;
+    border: solid 1px rgb(61, 79, 99);
   }
   
   #prices-title-description p {
@@ -722,7 +592,7 @@ html {
   }
   
   .price-container h1 {
-    color: #ff5a63;
+    color: rgb(61, 79, 99);
     font-size: 45px;
     margin-top: 6%;
   }
@@ -757,7 +627,7 @@ html {
   .price-container button {
     border: none;
     border-radius: 10px;
-    background-color: #ff5a6e;
+    background-color:rgb(61, 79, 99);
     box-shadow: 1px 2px 15px #bebebe;
     padding: 15px;
     width: 30%;
@@ -769,7 +639,7 @@ html {
   
   .price-container button:hover {
     cursor: pointer;
-    background-color: #ff7b8b;
+    background-color: rgb(61, 79, 99);
   }
   
   #price-container-two {
@@ -777,31 +647,7 @@ html {
   }
   
   
-  
-  
-  /* Newsletter Section CSS
-  
-  Tags included:
-  
-  1. #newsletter-container - main newsletter section container
-  
-  2. #newsletter-title-description - container with the main title and description
-  
-  3. #newsletter-title-description h1 - styling for the main title
-  
-  4. #newsletter-input-container - container with the form and input elements
-  
-  5. #email-form - the id given to the <form> tag
-  
-  6. #email-form label - styling of the label before the <input> tag
-  
-  7. #email-input - id of the <input> tag where the email will be written
-  
-  8. #email-form button - styling of the "submit" button after the <input> tag
-  
-  9. #email-form button:hover - styling for the hover state of the button
-  
-  */
+
   
   #newsletter-container {
     display: flex;
@@ -849,7 +695,7 @@ html {
   #submit {
     border: none;
     border-radius: 10px;
-    background-color: #ff5a6e;
+    background-color: rgb(61, 79, 99);
     box-shadow: 1px 2px 15px #bebebe;
     font-size: 16px;
     color: white;
@@ -860,7 +706,7 @@ html {
   
   #submit:hover {
     cursor: pointer;
-    background-color: #ff7b8b;
+    background-color:rgb(61, 79, 99);
   }
   
   
@@ -896,7 +742,7 @@ html {
       width: 15%;
       margin-top: 3%;
       margin-bottom: 3%;
-      border: solid 1px #ff5a6e;
+      border: solid 1px rgb(61, 79, 99);
     }
   
   
@@ -998,11 +844,12 @@ html {
       color: white;
   
       /* Background image */
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://i.ibb.co/VTdML0x/accessories-apple-business-1038628.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("/images/dtakestirimcibakim.jpg");
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      /*mobile*/
     }
   
     #hero-title {
@@ -1065,7 +912,7 @@ html {
       width: 15vh;
       height: 5vh;
       border-radius: 15px;
-      background-color: #ff5a6e;
+      background-color:rgb(61, 79, 99);
       color: white;
       font-size: 16px;
       margin-bottom: 20%;
@@ -1480,7 +1327,7 @@ html {
       width: 15vh;
       height: 5vh;
       border-radius: 15px;
-      background-color: #ff5a6e;
+      background-color:rgb(61, 79, 99);
       color: white;
       font-size: 16px;
       margin-bottom: 20%;
